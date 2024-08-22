@@ -1,0 +1,10 @@
+Comandos para guardar los cambios del code en Git Hub:
+
+	1. Git status
+	2. Git add .
+	3. Git commit -m "cargar cod"
+	4. Git push original main
+	
+Comandoa para hacer updgrade en otro pc.
+
+	1. Git pull 
