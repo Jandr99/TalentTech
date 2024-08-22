@@ -8,3 +8,149 @@ Comandos para guardar los cambios del code en Git Hub:
 Comandoa para hacer updgrade en otro pc.
 
 	1. Git pull 
+	
+_____________________________________________________________________________________-
+
+Explicación del codigo:
+
+Estructura del Documento HTML
+1. Declaración del tipo de documento:
+   <!DOCTYPE html>
+   Esto indica al navegador que el documento es HTML5.
+
+2. Etiqueta <html>:
+   <html lang="en">
+   Define el inicio del documento HTML. El atributo lang="en" especifica que el idioma del contenido es inglés.
+
+3. Etiqueta <head>:
+   <head>
+   Contiene metadatos sobre el documento, como el título y enlaces a hojas de estilo.
+
+4. Etiqueta <meta charset="UTF-8">:
+   <meta charset="UTF-8">
+   Especifica la codificación de caracteres del documento como UTF-8.
+
+5. Etiqueta <meta name="viewport" content="width=device-width, initial-scale=1.0">:
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   Hace que el diseño sea responsivo, ajustándose al ancho del dispositivo.
+
+6. Etiqueta <title>:
+   <title>Mi página web</title>
+   Define el título de la página que aparece en la pestaña del navegador.
+
+7. Estilos CSS en línea:
+   <style>
+       h2 {
+           color: orange;
+       }
+   </style>
+   Aplica estilos CSS directamente en el documento. Aquí, todos los elementos <h2> tendrán el color naranja.
+
+Contenido del Cuerpo del Documento
+8. Etiqueta <body>:
+   <body>
+   Contiene el contenido visible de la página web.
+
+9. Encabezados:
+   <h1>Bienvenidos a Moto Legend</h1>
+   <h2>Bienvenidos a Moto Legend</h2>
+   <h3>Bienvenidos a Moto Legend</h3>
+   <h4>Bienvenidos a Moto Legend</h4>
+   <h5>Bienvenidos a Moto Legend</h5>
+   <h6>Bienvenidos a Moto Legend</h6>
+   Los encabezados <h1> a <h6> se utilizan para títulos y subtítulos, con <h1> siendo el más importante y <h6> el menos importante.
+
+10. Enlace:
+    <a href="https://www.ktm.com/es-ec/models/naked-bike/2023-ktm-200-duke.html" target="_blank" rel="noopener noreferrer">2023 KTM 200 Duke</a>
+    Crea un enlace que abre en una nueva pestaña (target="_blank") y mejora la seguridad (rel="noopener noreferrer").
+
+11. Imagen:
+    <img src="https://web2.fireboldweb.com/wp-content/uploads/2023/04/120420231681309638360_200_DUKE_L_2-2.png" alt="Duke" width="400" height="400">
+    Muestra una imagen con una URL específica, con un tamaño de 400x400 píxeles y un texto alternativo "Duke".
+
+12. Video de YouTube:
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9NxU0gJaNoI?si=AM78GCzk_TUpxSrp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    Incrusta un video de YouTube en la página.
+
+13. Audio:
+    <audio controls autoplay loop>
+        <source src="audio/recursos_deadpool-3-bye-bye-bye-baile-completo.mp3" type="audio/mpeg">
+    </audio>
+    Reproduce un archivo de audio con controles, reproducción automática y en bucle.
+
+14. Lista Ordenada:
+    <h2>Listas Ordenadas</h2>
+    <ol>
+        <li>D</li>
+        <li>U</li>
+        <li>K</li>
+        <li>E</li>
+    </ol>
+    Muestra una lista ordenada con elementos numerados.
+
+15. Lista Desordenada:
+    <h2>Listas Desordenadas</h2>
+    <ul>
+        <li>2023 KTM 200 Duke</li>
+        <li>2023 KTM 390 Duke</li>
+        <li>2023 KTM 890 Duke</li>
+        <li>2023 KTM 1290 Super Duke R</li>
+    </ul>
+    Muestra una lista desordenada con viñetas.
+
+16. Tabla:
+    <h2>Tablas</h2>
+    <table border="1">
+        <tr>
+            <th>Modelo</th>
+            <th>Motor</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>2023 KTM 200 Duke</td>
+            <td>200 cc</td>
+            <td>$ 5.000</td>
+        </tr>
+        <tr>
+            <td>2023 KTM 390 Duke</td>
+            <td>390 cc</td>
+            <td>$ 6.000</td>
+        </tr>
+        <tr>
+            <td>2023 KTM 890 Duke</td>
+            <td>890 cc</td>
+            <td>$ 10.000</td>
+        </tr>
+        <tr>
+            <td>2023 KTM 1290 Super Duke R</td>
+            <td>1290 cc</td>
+            <td>$ 20.000</td>
+        </tr>
+    </table>
+    Crea una tabla con bordes que muestra modelos de motocicletas, sus motores y precios.
+
+17. Formulario:
+    <h2>Formularios</h2>
+    <form action="index.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+    Crea un formulario con campos para nombre, email y teléfono, y un botón de envío.
+
+18. Campo de Texto:
+    <h2>Entradas</h2>
+    <input type="text" id="nombre" name="nombre" required>
+    Crea un campo de texto para ingresar el nombre.
+
+19. Botón:
+    <button type="button">Enviar</button>
+    Crea un botón que no envía el formulario pero puede ser usado para otras acciones.	
+	

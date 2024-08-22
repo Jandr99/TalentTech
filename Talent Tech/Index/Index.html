@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi pag Web</title>
+    <title>Mi página web</title>
+
+    <!-- Estilos CSS -->
+    <style>
+        h2 {
+            color: orange;
+        }
+    </style>
 </head>
+
 <body>
-    <!-- Las etiquetas "h" sirven para los titulos y subtitulos -->
+    <!-- Las etiquetas "h" sirven para los títulos y subtítulos -->
     <h1>Bienvenidos a Moto Legend</h1>
     <h2>Bienvenidos a Moto Legend</h2>
     <h3>Bienvenidos a Moto Legend</h3>
@@ -20,7 +29,8 @@
     <!-- <a>: Esta es la etiqueta de anclaje que se utiliza para crear enlaces en HTML. -->
     <!-- target="_blank": El atributo target="_blank" indica que el enlace debe abrirse en una nueva pestaña o ventana del navegador. 
     Esto es útil para mantener a los usuarios en tu sitio web mientras permiten que exploren el enlace en una nueva pestaña. -->
-    <a href="https://www.ktm.com/es-ec/models/naked-bike/2023-ktm-200-duke.html" target="_blank" rel="noopener noreferrer">2023 KTM 200 Duke</a>
+    <a href="https://www.ktm.com/es-ec/models/naked-bike/2023-ktm-200-duke.html" target="_blank"
+        rel="noopener noreferrer">2023 KTM 200 Duke</a>
 
     <br>
     <br>
@@ -29,20 +39,122 @@
     <br>
     <br>
 
-    <!-- Etiqueta para add una imagen con su respectivo tamaño -->
-    <img src="C:\Users\jairoa.buitrago\Documents\TalentTech\Talent Tech\Img\duke200.png" alt="Duke" width="400" height="400">
+    <!-- Etiqueta para agregar una imagen con su respectivo tamaño -->
+    <img src="https://web2.fireboldweb.com/wp-content/uploads/2023/04/120420231681309638360_200_DUKE_L_2-2.png"
+        alt="Duke" width="400" height="400">
 
     <br>
     <br>
 
-    <!-- Etiqueta para agregar un video -->
-    <video controls autoplay loop src= "C:\Users\jairoa.buitrago\Documents\TalentTech\Talent Tech\Video\video.mp4">ktm 200</video>  
-    
+    <!-- Etiqueta para agregar un video de YouTube -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9NxU0gJaNoI?si=AM78GCzk_TUpxSrp"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+
     <br>
     <br>
 
     <!-- Etiqueta para agregar un audio -->
-    <audio controls autoplay loop src="C:\Users\jairoa.buitrago\Documents\TalentTech\Talent Tech\Audio\recursos_deadpool-3-bye-bye-bye-baile-completo.mp3">sound</audio>
-   
+    <audio controls autoplay loop>
+        <source src="audio/recursos_deadpool-3-bye-bye-bye-baile-completo.mp3" type="audio/mpeg">
+    </audio>
+
+    <br>
+    <br>
+
+    <h2>Listas Ordenadas</h2>
+
+    <!-- Etiqueta para agregar una lista ordenada -->   
+    <ol>
+        <li>D</li>
+        <li>U</li>
+        <li>K</li>
+        <li>E</li>
+    </ol>
+
+    <br>
+    <br>
+
+    <h2>Listas Desordenadas</h2>
+
+    <!-- Etiqueta para agregar una lista desordenada -->
+    <ul>
+        <li>2023 KTM 200 Duke</li>
+        <li>2023 KTM 390 Duke</li>
+        <li>2023 KTM 890 Duke</li>
+        <li>2023 KTM 1290 Super Duke R</li>
+    </ul>
+    
+    <br>
+    <br>
+
+    <h2>Tablas</h2>
+
+    <!-- Etiqueta para agregar una tabla -->
+    
+    <table border="1">
+        <tr>
+            <th>Modelo</th>
+            <th>Motor</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>2023 KTM 200 Duke</td>
+            <td>200 cc</td>
+            <td>$ 5.000</td>
+        </tr>
+        <tr>
+            <td>2023 KTM 390 Duke</td>
+            <td>390 cc</td>
+            <td>$ 6.000</td>
+        </tr>
+        <tr>
+            <td>2023 KTM 890 Duke</td>
+            <td>890 cc</td>
+            <td>$ 10.000</td>
+        </tr>
+        <tr>
+            <td>2023 KTM 1290 Super Duke R</td>
+            <td>1290 cc</td>
+            <td>$ 20.000</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <h2>Formularios</h2>
+
+    <!-- Etiqueta para agregar un formulario -->
+    <form action="index.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <br>
+    <br>
+
+    <h2>Entradas</h2>
+
+    <!-- Etiqueta para agregar un campo de texto -->
+    <input type="text" id="nombre" name="nombre" required>
+
+    <br>
+    <br>
+
+    <!-- Etiqueta para agregar un boton -->
+    <button type="button">Enviar</button>
+
 </body>
+
 </html>
