@@ -49,7 +49,6 @@
     <!-- Etiqueta para agregar un video de YouTube -->
     <iframe width="360" height="315" src="https://www.youtube.com/embed/9NxU0gJaNoI?si=AM78GCzk_TUpxSrp"    
         title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
     </iframe>
 
@@ -128,17 +127,29 @@
     <h2>Formularios</h2>
 
     <!-- Etiqueta para agregar un formulario -->
-    <form action="index.php" method="post">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
-        <br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <br>
-        <label for="telefono">Teléfono:</label>
-        <input type="tel" id="telefono" name="telefono" required>
-        <br>
-        <input type="submit" value="Enviar">
+    <form>
+        <label>Text: <input type="text" name="text"></label><br>
+        <label>Password: <input type="password" name="password"></label><br>
+        <label>Email: <input type="email" name="email"></label><br>
+        <label>Number: <input type="number" name="number"></label><br>
+        <label>Tel: <input type="tel" name="tel"></label><br>
+        <label>URL: <input type="url" name="url"></label><br>
+        <label>Search: <input type="search" name="search"></label><br>
+        <label>Date: <input type="date" name="date"></label><br>
+        <label>Time: <input type="time" name="time"></label><br>
+        <label>Datetime-local: <input type="datetime-local" name="datetime-local"></label><br>
+        <label>Month: <input type="month" name="month"></label><br>
+        <label>Week: <input type="week" name="week"></label><br>
+        <label>Color: <input type="color" name="color"></label><br>
+        <label>Checkbox: <input type="checkbox" name="checkbox"></label><br>
+        <label>Radio: <input type="radio" name="radio"></label><br>
+        <label>File: <input type="file" name="file"></label><br>
+        <label>Hidden: <input type="hidden" name="hidden" value="hiddenValue"></label><br>
+        <label>Range: <input type="range" name="range" min="0" max="100"></label><br>
+        <label>Submit: <input type="submit" value="Enviar"></label><br>
+        <label>Reset: <input type="reset" value="Restablecer"></label><br>
+        <label>Button: <input type="button" value="Botón"></label><br>
+        <label>Image: <input type="image" src="imagen.png" alt="Enviar"></label><br>
     </form>
 
     <br>
@@ -147,10 +158,8 @@
     <h2>Entradas</h2>
 
     <!-- Etiqueta para agregar un campo de texto -->
-    <input type="text" id="nombre" name="nombre" required>
-
-    <br>
-    <br>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required></input>
 
     <!-- Etiqueta para agregar un boton -->
     <button type="button">Enviar</button>
