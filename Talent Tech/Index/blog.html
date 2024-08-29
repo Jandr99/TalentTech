@@ -6,92 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jandr99">
     <meta name="description" content="Mi Pagina Web">
-    <meta name="keyboards" content="HTML, CSS, JavaScript"> 
+    <meta name="keywords" content="HTML, CSS, JavaScript">
     <title>Mis pasatiempos personales</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="estilo.css" />
 </head>
 
 <body>
 
-    <section>
-        <header>
-            <h1 style="text-align: center;">Mis pasatiempos personales</h1>
-        </header>
-    </section>
-    <label>Nombre Completo: <input style="text-align: center;" type="text" name="text"
-            placeholder="ingrese un texto"></label>
-    <br>
-    <br>
-    <section id="deportes">
-        <nav style="border: 1px solid black; padding: 10px;">
-            <h2 style="text-align: center;">
-                Pasatiempo 1: Hacer Deporte
-            </h2>
-            <nav style="text-align: center;">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1rKbcUMZH7M4v68qbWJkysXfJztSgDY9WPw&s"
-                    width="350" height="250" alt="img">
-            </nav>
-        </nav>
-    </section>
-    <br>
-    <br>
-    <section id="videojuegos">
-        <nav style="border: 1px solid black; padding: 10px;">
-            <h2 style="text-align: center;">
-                Pasatiempo 2: Jugar Videojuegos
-            </h2>
-            <nav style="text-align: center;">
-                <img src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/store/games/wz/overview/WZPLP_Hero.webp"
-                    width="350" height="250" alt="imgr">
-            </nav>
-        </nav>
-    </section>
-    <br>
-    <br>
-    <section id="habilidades">
-        <nav style="border: 1px solid black; padding: 10px;">
-            <h2 style="text-align: center;">
-                Pasatiempo 3: Aprender nuevas habilidades
-            </h2>
-            <nav style="text-align: center;">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2jCPJNtUBCRlyIxa90YE6OLEmg6S1nDR2zg&s"
-                    width="350" height="250" alt="img">
-            </nav>
-        </nav>
-    </section>
-    <br>
-    <br>
-    <section style="border: 1px solid black; padding: 10px;">
-        <table width="100%">
-            <tr>
-                <td style="text-align: start;">
-                    <a href="#deportes" style="color: black;">
-                        <h4 style="margin: 0;">Deporte</h4>
-                    </a>
-                </td>
-                <td style="text-align: center;">
-                    <a href="#videojuegos" style="color: black;">
-                        <h4 style="margin: 0;">Videojuegos</h4>
-                    </a>
-                </td>
-                <td style="text-align: end;">
-                    <a href="#habilidades" style="color: black;">
-                        <h4 style="margin: 0;">Habilidades</h4>
-                    </a>
-                </td>
-            </tr>
-        </table>
-    </section>
-    <br>
-    <br>
+    <header>
+        <h1>Mis pasatiempos personales</h1>
+    </header>
+
+    <main>
+        <section>
+            <label for="coment">Nombre Completo:</label>
+            <input id="coment" name="nombre" placeholder="Ingrese su Nombre" type="text">
+        </section>
+
+        <section id="deporte">
+            <h2>Pasatiempo 1: Hacer Deporte</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1rKbcUMZH7M4v68qbWJkysXfJztSgDY9WPw&s" width="350" height="250" alt="Persona haciendo deporte">
+        </section>
+
+        <section id="videojuegos">
+            <h2>Pasatiempo 2: Jugar Videojuegos</h2>
+            <img src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/store/games/wz/overview/WZPLP_Hero.webp" width="350" height="250" alt="Persona jugando videojuegos">
+        </section>
+
+        <section id="habilidades">
+            <h2>Pasatiempo 3: Aprender nuevas habilidades</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2jCPJNtUBCRlyIxa90YE6OLEmg6S1nDR2zg&s" width="350" height="250" alt="Persona aprendiendo nuevas habilidades">
+        </section>
+
+        <section>
+            <table>
+                <tr>
+                    <td><a href="#deporte"><h4>Deporte</h4></a></td>
+                    <td><a href="#videojuegos"><h4>Videojuegos</h4></a></td>
+                    <td><a href="#habilidades"><h4>Habilidades</h4></a></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
     <footer>
-        <label> Redes Sociales:
-            <input style="text-align: center;" type="text" name="text" placeholder="Ingrese un dato">
-            <br>
-            <br>
+        <form>
+            <label for="social">Redes Sociales:</label>
+            <input id="social" type="text" name="social" placeholder="Ingrese un dato">
+            <br><br>
             <input type="submit" value="Enviar">
-        </label>
+        </form>
     </footer>
+
 </body>
 
 </html>
