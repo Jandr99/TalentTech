@@ -1,0 +1,70 @@
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg");
+    font-family: Arial, sans-serif; color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#data {
+    text-align: center;
+    text-overflow: clip;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#coment {
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#deporte {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid white;
+    image-resolution: from-image;
+
+}
+
+#videojuegos {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid white;
+    image-resolution: from-image;
+
+}
+
+#habilidades {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid white;
+    image-resolution: from-image;
+
+}
+
+#end {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid white;
+    image-resolution: from-image;
+
+}
+
+footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color:rgba(4, 4, 27, 0.699);
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
