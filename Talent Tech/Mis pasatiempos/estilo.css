@@ -1,70 +1,63 @@
-
 body {
-    background-image: url("https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg");
-    font-family: Arial, sans-serif; color: white;
-    margin: 0;
-    padding: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg"); /* Imagen de fondo */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    color: white; /* Color del texto */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
 }
 
 header {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    text-align: center; /* Alineación del texto al centro */
+    font-family: 'Times New Roman', Times, serif; /* Fuente del texto */
 }
 
 #data {
-    text-align: center;
-    text-overflow: clip;
-    font-family: 'Times New Roman', Times, serif;
+    text-align: center; /* Alineación del texto al centro */
+    text-overflow: clip; /* Manejo del desbordamiento del texto */
+    font-family: 'Times New Roman', Times, serif; /* Fuente del texto */
 }
 
 #coment {
-    border: 1px solid black;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black; /* Borde del campo de entrada */
+    text-align: center; /* Alineación del texto al centro */
+    font-family: 'Times New Roman', Times, serif; /* Fuente del texto */
 }
 
 #deporte {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    border: 2px solid white;
-    image-resolution: from-image;
-
+    text-align: center; /* Alineación del texto al centro */
+    font-family: 'Times New Roman', Times, serif; /* Fuente del texto */
+    border: 2px solid white; /* Borde de la sección */
+    image-resolution: from-image; /* Resolución de la imagen */
 }
 
 #videojuegos {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    border: 2px solid white;
-    image-resolution: from-image;
-
+    text-align: center; /* Alineación del texto al centro */
+    font-family: 'Times New Roman', Times, serif; /* Fuente del texto */
+    border: 2px solid white; /* Borde de la sección */
+    image-resolution: from-image; /* Resolución de la imagen */
 }
 
 #habilidades {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    border: 2px solid white;
-    image-resolution: from-image;
-
+    text-align: center; /* Alineación del texto al centro */
+    font-family: 'Times New Roman', Times, serif; /* Fuente del texto */
+    border: 2px solid white; /* Borde de la sección */
+    image-resolution: from-image; /* Resolución de la imagen */
 }
 
 #end {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    border: 2px solid white;
-    image-resolution: from-image;
-
+    text-align: center; /* Alineación del texto al centro */
+    font-family: 'Times New Roman', Times, serif; /* Fuente del texto */
+    border: 2px solid white; /* Borde de la sección */
+    image-resolution: from-image; /* Resolución de la imagen */
 }
 
 footer {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    background-color:rgba(4, 4, 27, 0.699);
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    text-align: center; /* Alineación del texto al centro */
+    font-family: 'Times New Roman', Times, serif; /* Fuente del texto */
+    color: white; /* Color del texto */
+    background-color: rgba(4, 4, 27, 0.699); /* Color de fondo con transparencia */
+    padding: 10px; /* Relleno interno */
+    position: fixed; /* Posición fija en la parte inferior */
+    bottom: 0; /* Posición en la parte inferior */
+    width: 100%; /* Ancho completo */
 }
-
-
-
