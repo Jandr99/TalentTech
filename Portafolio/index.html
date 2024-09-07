@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portafolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0.5rem 0;
+            font-size: 1.2rem;
+        }
+        section {
+            margin: 2rem auto;
+            padding: 2rem;
+            max-width: 1200px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        section h2 {
+            color: #333;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .proyectos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .proyecto {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .proyecto img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .proyecto h3 {
+            padding: 1rem;
+            font-size: 1.5rem;
+            background-color: #4CAF50;
+            color: white;
+        }
+        .proyecto p {
+            padding: 1rem;
+        }
+        .proyecto a {
+            display: block;
+            padding: 1rem;
+            text-align: center;
+            color: white;
+            background-color: #333;
+            text-decoration: none;
+            border-top: 1px solid #ddd;
+        }
+        .proyecto a:hover {
+            background-color: #4CAF50;
+        }
+        .habilidades ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .habilidades ul li {
+            background-color: #4CAF50;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+        .contacto ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        .contacto ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        .contacto a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .contacto a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Jairo Andres Buitrago Gutierrez</h1>
+        <p>Desarrollador de Software TI</p>
+    </header>
+
+    <section id="perfil-profesional">
+        <h2>Perfil Profesional</h2>
+        <p>Desarrollador de software con sólida experiencia en el diseño de aplicaciones y sistemas eficientes. con un enfoque en la creación de soluciones escalables y seguras. Mi objetivo es contribuir a proyectos innovadores y ofrecer resultados de alta calidad.</p>
+    </section>
+
+    <section id="proyectos-destacados">
+        <h2>Proyectos Destacados</h2>
+        <div class="proyectos">
+            <div class="proyecto">
+                <img src= https://i0.wp.com/blog.joppy.me/wp-content/uploads/2023/03/Screenshot-2023-02-23-at-12.52.27.jpg?resize=1024%2C507&ssl=1 alt="Imagen del Proyecto 1">
+                <h3>Proyecto 1</h3>
+                <p>Descripción: [Breve descripción del proyecto y las tecnologías utilizadas].</p>
+                <a href= target="_blank">Ver Proyecto</a>
+            </div>
+            <div class="proyecto">
+                <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT9_ZffO0JjRUVBmCc4Jup_4y8XkFirxL5uA&s alt="Imagen del Proyecto 2">
+                <h3>Proyecto 2</h3>
+                <p>Descripción: [Breve descripción del proyecto y las tecnologías utilizadas].</p>
+                <a href="[Enlace al proyecto]" target="_blank">Ver Proyecto</a>
+            </div>
+            <div class="proyecto">
+                <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzC4w4YfcyLLu992kOq904dR-2JXjGgFvKRw&s" alt="Imagen del Proyecto 3">
+                <h3>Proyecto 3</h3>
+                <p>Descripción: [Breve descripción del proyecto y las tecnologías utilizadas].</p>
+                <a href="[Enlace al proyecto]" target="_blank">Ver Proyecto</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="habilidades">
+        <h2>Habilidades Técnicas</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Git</li>
+            <li>Docker</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+        </ul>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <p>Si estás interesado en colaborar o tienes alguna pregunta, no dudes en contactarme:</p>
+        <ul>
+            <li>Email: <a href=desarrollo@midomino.com>desarrollo@midomino.com</a></li>
+            <li>LinkedIn: <a href="[Tu perfil de LinkedIn]" target="_blank">Jandr00</a></li>
+            <li>GitHub: <a href="[Tu perfil de GitHub]" target="_blank">Jandr99</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jairo Andres Buitrago Gutierrez. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
