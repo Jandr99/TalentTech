@@ -1,0 +1,12 @@
+nav {
+    background-color: blue;
+    padding: 1px;
+}
+
+nav .menu {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
