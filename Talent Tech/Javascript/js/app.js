@@ -58,3 +58,27 @@ let num = [1, 2, 3, 4, 5]; // Representa una lista de valores
 
 // Usando template literals para imprimir la estructura del array
 console.log(`Array de números: [${num.join(', ')}]`); // Imprime: Array de números: [1, 2, 3, 4, 5]
+
+
+let estatus = true; // Variable de tipo booleano
+
+// Variable de tipo objeto
+console.log (typeof(saludar))
+console.log (typeof(nombre))
+console.log (typeof(estado))
+
+let nu1 = parseInt(prompt("Ingrese un número: ")); // Solicita un número al usuario
+let nu2 = parseInt(prompt("Ingrese otro número: ")); // Solicita otro número al usuario
+
+console.log (`el primer numero es:  + ${nu1} y  el segundo numero es: ${nu2}`); // Imprime los números ingresados
+
+let s = nu1+nu2;
+console.log (`la suma de los numeros es: ${s}`); // Imprime la suma de los números ingresados
+
+ 
+// Variable de tipo número con valor decimal (flotante) 
+let alea = (Math.random()* 5 ) + 1;// Genera un número aleatorio entre 1 y 5
+console.log(alea); //Imprime el número aleatorio
+
+let alea1 = (Math.random()* 100 ); // Genera un número aleatorio entre 0 y 100
+console.log(alea1); //Imprime el número aleatorio
