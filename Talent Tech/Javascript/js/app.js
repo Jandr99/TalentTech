@@ -82,3 +82,7 @@ console.log(alea); //Imprime el número aleatorio
 
 let alea1 = (Math.random()* 100 ); // Genera un número aleatorio entre 0 y 100
 console.log(alea1); //Imprime el número aleatorio
+
+
+
+
