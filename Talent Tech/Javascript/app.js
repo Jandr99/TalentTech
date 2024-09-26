@@ -1,4 +1,4 @@
-//comentario de una sola linea
+// //comentario de una sola linea
 
 /* comentario de vvarias lineas*/
 
@@ -80,8 +80,21 @@ console.log (`la suma de los numeros es: ${s}`); // Imprime la suma de los núme
 let alea = (Math.random()* 5 ) + 1;// Genera un número aleatorio entre 1 y 5
 console.log(alea); //Imprime el número aleatorio
 
-let alea1 = (Math.random()* 100 ); // Genera un número aleatorio entre 0 y 100
+let alea1 = (Math.random()* 100 ); // Genera un número aleatorio entre 0 y 100Javascript/js/app.js
 console.log(alea1); //Imprime el número aleatorio
+
+
+// Definir la variable condicion
+let condicion = true;
+
+if (condicion) {
+    console.log("La condición es verdadera"); // Se ejecuta si la condición es verdadera
+} else {
+    console.log("La condición es falsa"); // Se ejecuta si la condición es falsa
+}
+
+
+
 
 
 
